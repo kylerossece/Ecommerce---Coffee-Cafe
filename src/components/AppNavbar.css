@@ -1,0 +1,39 @@
+.custom-navbar {
+  background: #8c4d44;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.coffee-cafe-text {
+  margin-left: 10px;
+  font-size: 18px;
+  color: white !important;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #000000 !important;
+  background-color: transparent !important;
+}
+
+.custom-navbar .navbar-brand img:hover {
+  filter: brightness(0) invert(1);
+}
+
+.custom-navbar .navbar-brand img {
+  filter: invert(100%);
+}
+
+.custom-navbar .navbar-brand:hover {
+  filter: brightness(0) invert(1);
+}
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+}

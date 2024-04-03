@@ -1,0 +1,158 @@
+
+
+
+.footer {
+  background-color: #492201; /* Set background color */
+  color: white !important; /* Set text color */
+  padding: 10px 0; /* Adjust padding */
+  max-height: 100vh; /* Set maximum height */
+  width: 120vw;
+  position: absolute;
+  left: 0px;
+  overflow: hidden; /* Hide overflow content */
+  font-family: scribble sans-serif;
+}
+
+.footer-logo {
+  text-decoration: none; /* Remove underline from logo */
+  display: flex; /* Use flexbox for logo alignment */
+  align-items: center; /* Align items vertically */
+}
+
+.footer-logo-img {
+  height: 50px; /* Set logo height */
+  width: 50px; /* Set logo width */
+}
+
+.footer-logo-text {
+  font-size: 18px; /* Set font size */
+  margin-left: 10px; /* Add margin to the text */
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit; /* Optionally set the color to inherit the parent's color */
+}
+
+.footer-links {
+  margin-top: 10px; /* Add top margin */
+}
+
+.footer-link {
+  color: white; /* Set link color */
+  margin-right: 20px; /* Add right margin between links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-link:hover,
+.myfooter-link:hover {
+  color: black !important; /* Change link color to white on hover */
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+}
+
+/* Style list items */
+.footer ul li {
+  margin-bottom: 5px; /* Add spacing between list items if needed */
+  text-decoration: none !important;
+}
+
+.footer-section ul li a {
+  color: white;
+}
+
+
+
+.Coffee {
+  margin-left: -100px;
+  color: white;
+  font-size: 25px;
+}
+
+.Coffee-text {
+  margin-left: -100px;
+  font-size: 15px;
+}
+
+.Footer-link {
+  margin-left: -20px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none !important;
+}
+
+.myfooter-link {
+  font-size: 13px;
+  text-decoration: none !important;
+}
+
+.Address {
+  font-size: 18px;
+  color: white;
+  margin-left: -90px;
+}
+
+.myaddress {
+  font-size: 15px;
+  margin-left: -90px;
+}
+
+.myaddress:hover {
+  color: white !important; /* Change link color to white on hover */
+}
+
+.Coffee-text:hover {
+  color: white !important; /* Change link color to white on hover */
+}
+
+
+/* Add media queries to adjust font sizes and margins for smaller screens */
+@media (max-width: 768px) { /* Small devices (tablets, 768px and down) */
+  .Coffee {
+    font-size: 20px; /* Decrease font size for Coffee heading */
+    text-align: left;
+    margin: 0;
+  }
+  .Coffee-text {
+    font-size: 13px; /* Decrease font size for Coffee text */
+    margin-left: 0; /* Reset left margin */
+    width: 280px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+  }
+  .Footer-link {
+    font-size: 16px; /* Decrease font size for Footer Links heading */
+    margin-left: 0; /* Reset left margin */
+  }
+  .myfooter-link li {
+    margin-left: 0; /* Reset left margin for list items */
+  }
+  .Address {
+    font-size: 16px; /* Decrease font size for Address heading */
+    margin-left: 0; /* Reset left margin */
+    margin-top:5px ;
+  }
+  .myaddress {
+    font-size: 12px; /* Decrease font size for Address text */
+    margin-left: 0; /* Reset left margin */
+    margin-top: ;
+  }
+}
+
+@media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
+  .Coffee {
+    font-size: 18px; /* Further decrease font size for Coffee heading */
+  }
+  .Footer-link {
+    font-size: 14px; /* Further decrease font size for Footer Links heading */
+  }
+  .Address {
+    font-size: 14px; /* Further decrease font size for Address heading */
+  }
+}
+

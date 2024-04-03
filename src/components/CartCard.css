@@ -1,0 +1,71 @@
+.product-image {
+  height: 250px; /* Adjust the height as needed */
+  width: 250px; /* Adjust the width as needed */
+}
+
+.cart-card {
+  margin: auto;
+}
+.product-info {
+  font-family: Scribble sans-serif; /* Apply Poppins font to product info */
+}
+.banner h1 {
+  color: white;
+  background-color: #492201;
+  padding: 15px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.banner {
+  background-color: #492201;
+
+  @media (max-width: 575.98px) {
+    width: 87vw; /* Set the width to 100% for small screens */
+  }
+}
+.product-image {
+  height: 250px; /* Adjust the height as needed */
+  width: 250px; /* Adjust the width as needed */
+}
+
+.custom-btn {
+  background-color: #8c4d44 !important;
+  border-color: #8c4d44 !important;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensures the container takes up the full height */
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100%; /* Make the container take up full height */
+}
+
+.product-info {
+  text-align: center; /* Center text within product info */
+}
+
+.product-wrapper {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: 100%;
+  /* Apply margin-left by default */
+
+  /* Reset margin-left for small or extra-small screens */
+  @media (max-width: 575.98px) {
+    margin-left: 0;
+  }
+}
+
+.product-info:hover {
+  color: white; /* Change text color to white on hover */
+}

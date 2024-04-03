@@ -1,0 +1,121 @@
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+.home {
+  margin-left: -15px; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100vw; /* Use viewport width to cover the entire width of the screen */
+  height: 100%; /* Use viewport height to cover the entire height of the screen */
+  background-image: url('../components/Assets/background.png');
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+
+
+
+.home-content {
+  text-align: left;
+}
+
+@media (max-width: 767) {
+  .home {
+    background-size: 100% auto; /* Adjust background size for small screens */
+    background-position: top; /* Change background position for small screens */
+  }
+}
+
+
+
+
+
+.home-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 100px;
+}
+
+
+@media (min-width: 768px) {
+  .home-content {
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+}
+
+.coffee-text {
+  color: #8c4d44;; /* Brown text color */
+  font-family: scribble sans-serif; /* Replace 'YourDesiredFont' with the desired font */
+  /* Add any other styles you want for the coffee text */
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.coffee-image {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  width: 300px; /* Set the initial width */
+  animation: spin 45s linear infinite; /* Apply the spinning animation */
+
+}
+
+
+@media (min-width: 576px) {
+  .coffee-image {
+    width: 450px; /* Increase the width for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .coffee-image {
+    width: 250px; /* Adjust the width as needed */
+     margin-top: -50px;
+  }
+}
+
+
+.btn-brown {
+  background-color: #8c4d44; /* Brown background color */
+  border-color: white !important; /* White border color */
+  color: white !important; /* Text color */
+  margin-top: -180px;
+
+
+}
+
+.btn-brown:hover {
+  background-color: #6d3b33; /* Darker brown on hover */
+  border-color: white; /* White border color on hover */
+  color: white !important; /* Text color on hover */
+}
+ 
+
+
+
+
+
+
+
+
+
+
+

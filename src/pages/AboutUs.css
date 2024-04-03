@@ -1,0 +1,74 @@
+.coder-image {
+  text-align: left;
+  margin-left: -15px; /* Move the container to the left */
+  margin-top: 5px;
+  padding-right: 10px;
+  height: 100%;
+  width: 100vw;
+  background-color: #492201;
+  padding: 10px;
+}
+
+.coder-img {
+  max-width: 380px;
+  height: auto;
+  margin-top: 80px; /* Adjust margin-top as needed */
+  position: absolute;
+  left: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .coder-image {
+    width: 94vw;
+    margin: 0;
+    padding: 10px;
+    background-color: #492201 !important; /* Apply background color with !important */
+    height: 200vh; /* Increase container height to ensure space for absolute positioning */
+    position: relative; /* Make the container positioned relative for absolute positioning */
+  }
+  
+  .coder-img {
+    width: 100%;
+    height: auto;
+    margin-left: -10px; /* Reset margin-left for small screens */
+  }
+
+  .about-us-description {
+    color: white; /* Set text color to white */
+    font-family: Scripted sans-serif;
+    position: absolute; /* Position at the bottom */
+    top: 270px; /* Adjust the distance from the bottom */
+    left: 25px; /* Align to the left */
+    width: 100%; /* Occupy full width */
+    margin: 0; /* Remove any existing margin */
+  }
+
+  .about-us {
+    color: white; /* Set text color to white */
+    position: absolute; /* Position at the bottom */
+    top: 20px; /* Align to the left */
+    width: 100%; /* Occupy full width */
+    margin: 0; 
+  }
+}
+
+
+.about-us {
+  color: white; /* Set text color to white */
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.about-us-description {
+  color: white; /* Set text color to white */
+  font-family: Scripted sans-serif;
+  text-align: center;
+  margin: 40px auto; /* Adjust margin-top as needed */
+  max-width: 80%; /* Set max-width to prevent overflowing */
+}
+
+@media (min-width: 576px) {
+  .about-us-description {
+    text-align: left; /* Align text to the left on screens larger than small */
+  }
+}

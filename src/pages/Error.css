@@ -1,0 +1,37 @@
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.error-image-container {
+  flex: 1;
+}
+
+.error-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.error-text-container {
+  flex: 1;
+  text-align: left;
+}
+
+.error-title {
+  font-size: 64px;
+  color: #8c4d44;
+}
+
+.error-message {
+  font-size: 24px;
+  color: #8c4d44;
+  font-weight: bold;
+}
+
+.error-paragraph{
+   color: #8c4d44;
+   font-size: 15px;
+}

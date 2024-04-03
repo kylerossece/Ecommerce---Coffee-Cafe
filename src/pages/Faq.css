@@ -1,0 +1,8 @@
+.faq-toggle:hover {
+  color: white !important; 
+}
+
+.faq-answer:hover {
+  color: #ffffff; /* Change text color to white when hovering */
+}
+

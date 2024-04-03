@@ -1,0 +1,57 @@
+.card-title {
+  font-family:  scribble sans-serif;
+  font-weight: bold;
+
+}
+
+/* CSS */
+.card {
+  height: 85vh; /* Set default height for larger screens */
+}
+
+/* Add this CSS to your Home.css file */
+.card:hover {
+  background-color: #6d3b33 !important; /* Change background color of the card on hover */
+}
+
+.card:hover .card-title {
+  color: white !important; /* Change text color of the card title on hover */
+}
+
+
+.card:hover .card-text {
+  color: white !important; /* Change text color of the card title on hover */
+}
+
+
+@media (max-width: 991.98px) {
+  .card {
+    height: auto; /* Reset height for medium screens */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    height: auto; /* Reset height for small screens */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    height: auto; /* Reset height for extra small screens */
+  }
+}
+
+
+
+.home-content h1,
+.card-text,
+.text-center h2 {
+  font-family:  scribble sans-serif;
+  font-style: italic;
+}
+
+.card-button {
+  margin-top: 100px; /* Add margin space between card text and button */
+ 
+}
